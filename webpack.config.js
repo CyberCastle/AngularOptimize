@@ -15,8 +15,8 @@ module.exports = {
                     [zlib.constants.BROTLI_PARAM_QUALITY]: 11
                 }
             },
-            threshold: 10240,
-            minRatio: 0.8,
+            threshold: 0,
+            minRatio: Infinity,
             // We only keep the .br assets
             // deleteOriginalAssets: true
             deleteOriginalAssets: false
